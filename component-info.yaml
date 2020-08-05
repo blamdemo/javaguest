@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testjavathing2
+  description: thing2
+  annotations:
+    github.com/project-slug: blamdemo/javaguest
+    backstage.io/github-actions-id: blamdemo/javaguest
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
